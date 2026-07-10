@@ -1,0 +1,27 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Your actual portfolio data — never commit this
+data/fidelity_export.csv
+data/*.csv
+data/*.xlsx
+
+# API keys
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+src/__pycache__/
+
+# Mac
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Jupyter (if you experiment)
+*.ipynb_checkpoints/
